@@ -8,7 +8,7 @@ body {
 header {
     background-color: rgb(204, 204, 204);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
     font-size: 20px;
     align-items: center;
@@ -33,4 +33,153 @@ header div {
     display: flex;
     justify-content: space-between;
     width: 300px;
+}
+
+.img-section p {
+    margin-top: 60px;
+    margin-left: 220px;
+    font-size: 30px;
+    width: 780px;
+    font-weight: bold;
+}
+.img-section img {
+    margin-left: 220px;
+    width: 1000px;
+    height: 400px;
+}
+
+.emoji {
+    margin-left: 220px;
+    display: flex;
+    gap: 30px;
+}
+
+.emoji > span {
+    background-color: rgb(209, 166, 209);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search {
+    font-size: 20px;
+    font-family: bold;
+    margin-left: 220px;
+}
+
+div input {
+    width: 300px;
+}
+
+.search div {
+    display: flex;
+    gap: 300px;
+}
+
+
+.search p {
+    margin-left: 390px;
+    width: 300px;
+    text-align: center;
+}
+
+div img {
+    height: 200px;
+    width: 320px;
+}
+
+.latest-news {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.latest-news p{
+    width: 300px;
+    font-weight: bold;
+}
+
+.latest-news {
+    display: flex;
+    margin-left: 120px;
+    width: 1200px;
+    display: flex;
+}
+
+
+.hot-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hot-news p{
+    width: 300px;
+    font-weight: bold;
+}
+
+.hot,
+.latest  {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.subscribe p {
+    width: 460px;
+    text-align: center;
+}
+
+.subscribe button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 7px;
+    width: 190px;
+}
+
+footer {
+    background-color: rgb(240, 239, 238);
+    margin-left: 200px;
+    margin-bottom: 120px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 940px;
+    border-radius: 5px;
+}
+
+footer .info {
+    width: 20px;
+}
+
+footer p {
+    width: 300px;
+}
+
+footer .title {
+    font-weight: bold;
+    margin: 0;
+}
+
+footer button {
+    border-color: blue;
+    border-radius: 2px;
+    width: 90px;
 }
