@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+header button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 7px;
+    width: 70px;
+}
+
+header span {
+    font-weight: bold;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
